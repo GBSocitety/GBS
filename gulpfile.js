@@ -4,7 +4,7 @@ var bsync   = require('browser-sync').create();
 var reload  = bsync.reload;
 var $       = require('gulp-load-plugins')({ rename: {
                     'gulp-minify-css':'cssmin',
-                    //'gulp-scss-lint':'scsslint'
+                    'gulp-scss-lint':'scsslint'
                 } });
 var mainBowerFiles = require('main-bower-files');
 var merge = require('merge-stream');
@@ -17,7 +17,7 @@ gulp.task('clean', function () {
 gulp.task('styles', function () {
     return gulp.src('app/sass/**/*.scss')
         .pipe($.plumber())    
-        //.pipe($.scsslint())
+        .pipe($.scsslint())
         .pipe($.sass())
         .pipe($.concat('app.css'))
         .pipe($.cssmin())

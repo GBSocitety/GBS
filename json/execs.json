@@ -46,6 +46,7 @@
     "icon": "balance-scale",
     "email": "gsociety.events@gmail.com"
   },
+
   {
     "file": "",
     "name": "Netra Rajesh",
@@ -55,6 +56,27 @@
     "icon": "balance-scale",
     "email": "gsociety.events@gmail.com"
   },
+
+  {
+    "file": "abhinav.jpg",
+    "name": "Abhinav Mohan",
+    "position": "Co-Director of Journal",
+    "type": "journal",
+    "discipline": "ChemE, 1T8",
+    "icon": "flask",    
+    "email": "gsociety.journal@gmail.com"
+  },
+
+  {
+    "file": "",
+    "name": "Elana Sefton",
+    "position": "Co-Director of Journal",
+    "type": "journal",
+    "discipline": "Chemistry & Psychology, 1T8",
+    "icon": "flask",    
+    "email": "gsociety.journal@gmail.com"
+  },
+
   {
     "file": "liam.jpg",
     "name": "Liam D'Souza",
@@ -77,7 +99,7 @@
 
   {
     "file": "",
-    "name": "Chang Yeon Woo",
+    "name": "Nicholas Woo",
     "position": "REX Subcomm",
     "type": "rex",
     "discipline": "EngSci, 1T9",
@@ -85,14 +107,35 @@
     "email": ""
   },
 
-  {
-    "file": "abhinav.jpg",
-    "name": "Abhinav Mohan",
-    "position": "Co-Director of Journal",
-    "type": "journal",
-    "discipline": "ChemE, 1T8",
-    "icon": "flask",    
-    "email": "gsociety.journal@gmail.com"
+   {
+    "file": "",
+    "name": "Jai Aggarwal",
+    "position": "REX Subcomm",
+    "type": "rex",
+    "discipline": "Life Sciences, 2T0",
+    "icon": "heartbeat",
+    "email": ""
+  },
+
+ {
+    "file": "",
+    "name": "Mranali Dengre",
+    "position": "REX Subcomm",
+    "type": "rex",
+    "discipline": "Molecular Genetics and Microbiology, 1T9",
+    "icon": "cubes",
+    "email": ""
+  }
+,
+
+ {
+    "file": "",
+    "name": "Jimmy Zhu",
+    "position": "REX Subcomm",
+    "type": "rex",
+    "discipline": "ECE, 1T9 + T1",
+    "icon": "bolt",
+    "email": ""
   }
   
 ]
