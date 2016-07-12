@@ -13,7 +13,7 @@
 // INDEX
 .index-page {
 
-  .header-panel {
+  .sub-header-copy {
     // @include bgimage-gradient('bg.jpg', .75, 0);
     @include bgimage-gradient('bg3.png', .2, 0);
     background-repeat: repeat;
@@ -153,6 +153,10 @@
   .header-panel {
     @include bgpanel($light-gray);
     padding-top: $header-spacer + $spacer;
+
+    .sub-header-copy {
+      text-align: left;
+    }
   }
 
   .event-panel {
@@ -284,6 +288,10 @@
   .header-panel {
     @include bgpanel($light-gray);
     padding-top: $header-spacer + $spacer;
+   
+   .sub-header-copy {
+      text-align: left;
+    }
   }
 
   .rex-panel {
