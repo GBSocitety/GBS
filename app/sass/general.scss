@@ -1,4 +1,4 @@
-@import './local-variables';
+@import './local-variables.scss';
 
 // MIXINS ---------------------------------------------------------------------
 @mixin fonts($family, $weight, $size, $color) {
@@ -112,6 +112,7 @@ a {
 // BIG HEADER
 .header {
   @include fonts($header-font, 700, $large-size, $header-color);
+
 }
 
 .header-copy {
