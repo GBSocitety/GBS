@@ -35,6 +35,17 @@
   background: linear-gradient(rgba(0, 0, 0, $top), rgba(0, 0, 0, $bottom)), url('images/#{$img}');
 }
 
+@mixin phone {
+  @media (max-width: #{$phone-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
 // GENERAL STYLES ---------------------------------------------------------------------
 
 
@@ -152,6 +163,10 @@ a {
 // navbar item
 .item {
   padding: .8em 1.2em;
+
+  @include phone {
+    font-size:0.7em;
+    }
 }
 
 .nav-bar {

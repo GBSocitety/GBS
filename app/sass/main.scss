@@ -677,6 +677,12 @@
     vertical-align: bottom;
     width: 35%;
 
+    
+    @include phone {
+        display: none;
+        visibility: hidden;
+      }
+
     .fa {
       font-size: 10em;
       margin-bottom: 8vh;
@@ -690,9 +696,17 @@
     vertical-align: top;
     width: 65%;
 
+    @include phone {
+      border-left: none;
+    }
+
     @each $position,$color in $positions {
       &.#{$position} {
         border-left: $border-width solid $color;
+        
+        @include phone {
+          border-left: none;
+        }
       }
     }
   }
@@ -730,6 +744,11 @@
     width: $icon-size + .5em;
     margin: 0 auto;
 
+    @include phone {
+      float:left;
+      
+    }
+
     .fa {
       display: table-cell;
       color: $dark-gray;
@@ -745,11 +764,22 @@
     width: 50%;
     padding: 1em;
 
+    @include phone {
+      float:none;
+      width:100%;
+    }
+
+
     .bottom {
       @extend %logistics-text;
       padding-top: 1em;
       text-align: center;
       color: $dark-gray;
+
+      @include phone {
+        padding-top: 0.5em;
+      }
+
     }
   }
 
@@ -763,6 +793,11 @@
     height: 100%;
     padding: 1em;
     // word-wrap: break-word;
+
+    @include phone {
+      float:none;
+      width:100%;
+    }
 
     .fa {
       @include transition();
