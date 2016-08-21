@@ -29,14 +29,15 @@
   },
 
   {
-    "file": "roger.jpg",
-    "name": "Roger Luo",
+    "file": "",
+    "name": "Webmaster",
     "position": "Webmaster",
-    "discipline": "IndE, 1T6",
+    "discipline": "",
     "icon": "lightbulb-o",            
     "type": "misc",    
     "email": "gsociety.webmaster@gmail.com"
-  },  
+  }, 
+
   {
     "file": "mishael.jpg",
     "name": "Mishael Nuh",
